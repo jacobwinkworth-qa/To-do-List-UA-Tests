@@ -93,7 +93,6 @@ public class CRUDTaskTest {
 	public void readTask() {
 		LOGGER.info("Reading tasks...");
 		test.log(LogStatus.PASS, "read task passed");
-		test.log(LogStatus.FAIL, "read task failed");
 		assertTrue(true);
 		
 	}
